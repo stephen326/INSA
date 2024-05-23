@@ -4,69 +4,215 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Promote Gender Equality</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        h1, h2, h3 {
+            color: #4CAF50;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        main {
+            flex: 1;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            margin-top: auto; /* Push footer to the bottom */
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td, th {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        /* Header styles */
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0; /* Increased padding for better spacing */
+            position: relative;
+        }
+        header h1 {
+            margin-bottom: 10px;
+            color: black; /* Change font color to black */
+            font-size: 2em; /* Increase font size */
+        }
+        header p {
+            font-size: 1.5em; /* Adjusted font size */
+            margin-bottom: 20px; /* Increased bottom margin for spacing */
+        }
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav a {
+            display: inline-block;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+        }
+        /* Smooth scroll */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Highlight effect */
+        .active-section {
+            background-color: #f0f0f0;
+            transition: background-color 0.3s;
+        }
+    </style>
 </head>
 <body>
     <!-- Header with navigation -->
-    <table width="100%" border="0" cellspacing="0" cellpadding="10" bgcolor="#4CAF50">
-        <tr>
-            <td>
-                <h1 style="color: white; text-align: center;">Promote Gender Equality</h1>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <nav>
-                    <table align="center" cellpadding="10">
-                        <tr>
-                            <td><a href="https://www.google.com" style="color: white; text-decoration: none;" target="_blank">What</a></td>
-                            <td><a href="https://segmentfault.com/a/1190000021815477" style="color: white; text-decoration: none;" target="_blank">Why</a></td>
-                            <td><a href="https://www.google.com" style="color: white; text-decoration: none;" target="_blank">How</a></td>
-                            <td><a href="https://www.google.com" style="color: white; text-decoration: none;" target="_blank">Examples</a></td>
-                        </tr>
-                    </table>
-                </nav>
-            </td>
-        </tr>
-    </table>
-
+    <header>
+        <h1 style="color: black; font-size: 2em;">Gender Equality is for Everybody</h1>
+        <nav>
+            <a href="#what">What</a>
+            <a href="#why">Why</a>
+            <a href="#how">How</a>
+            <a href="#examples">Examples</a>
+        </nav>
+    </header>
+    
     <!-- Main content -->
     <main>
-        <section>
+        <section id="what">
             <h2>What is Gender Equality?</h2>
             <p>Gender equality is the equal rights, responsibilities, and opportunities of women, men, girls, and boys. It implies that the interests, needs, and priorities of each gender are respected equally and do not determine their roles and responsibilities in society and private life.</p>
         </section>
-
-        <section>
+        
+        <section id="why">
             <h2>Why Gender Equality Matters</h2>
             <p>Gender equality is not only a fundamental human right, but a necessary foundation for a peaceful, prosperous, and sustainable world. Gender equality is essential for economies and communities to thrive. When women are empowered, whole societies benefit.</p>
         </section>
-
-        <section>
-            <h2>How to Promote Gender Equality</h2>
-            <p>For detailed information on how to help promote gender equality, please visit <a href="https://www.google.com" target="_blank">Google</a>.</p>
-        </section>
-
-        <section>
-            <h2>Examples of Gender Equality Initiatives</h2>
-            <p>Here are some examples of initiatives promoting gender equality:</p>
+        
+        <section id="how">
+            <h2>Strategies to Address Gender Bias</h2>
+            <p>Addressing gender bias requires a multifaceted approach, including but not limited to the following areas:</p>
+            
+            <h3>1. Education and Awareness</h3>
             <ul>
-                <li>The United Nations Women's Empowerment Principles (WEPs)</li>
-                <li>The HeForShe campaign by UN Women</li>
-                <li>Gender equality policies in workplaces and organizations</li>
-                <li>Education programs focusing on gender equality and women's rights</li>
+                <li><strong>Curriculum Design:</strong> Introduce courses on gender equality and anti-gender bias in schools and universities. Use case studies and discussions to help students understand the impact of gender bias on society.</li>
+                <li><strong>Workshops and Training:</strong> Organize workshops and training sessions in workplaces and communities to teach people how to recognize and combat gender bias. Examples include anti-bias training and unconscious bias training.</li>
             </ul>
+            
+            <h3>2. Policy and Legal Reforms</h3>
+            <ul>
+                <li><strong>Equal Pay Legislation:</strong> Advocate for laws ensuring equal pay for equal work, regardless of gender. Implement transparent pay structures to prevent gender pay gaps.</li>
+                <li><strong>Family-Friendly Policies:</strong> Develop policies that support work-life balance, such as maternity and paternity leave, and flexible working hours, to alleviate the dual burden often faced by women.</li>
+            </ul>
+            
+            <h3>3. Workplace Culture Change</h3>
+            <ul>
+                <li><strong>Diversity and Inclusion Policies:</strong> Companies should establish Diversity and Inclusion (D&I) policies to ensure fairness in hiring, promotion, and compensation. Appoint dedicated D&I officers to oversee the implementation of these policies.</li>
+                <li><strong>Improved Performance Evaluations:</strong> Incorporate gender equality metrics in performance evaluations to ensure fairness. Avoid biased assessments that lead to unjust treatment based on gender.</li>
+            </ul>
+            
+            <h3>4. Media and Representation</h3>
+            <ul>
+                <li><strong>Diverse Role Models:</strong> Media should showcase diverse gender roles and avoid reinforcing gender stereotypes. For example, depict women in a variety of professions and roles in films, TV shows, and advertisements.</li>
+                <li><strong>Promote Gender Equality:</strong> Media content should reflect anti-gender bias messages, promoting the importance of gender equality and reducing the spread of negative gender stereotypes.</li>
+            </ul>
+            
+            <p>By implementing these comprehensive strategies, we can build a more equitable and inclusive society, effectively addressing the issue of gender bias.</p>
         </section>
-    </main>
 
+<section id="examples">
+    <h2>Examples of Gender Equality Initiatives</h2>
+    <p>Here are some examples of initiatives promoting gender equality:</p>
+    <ul>
+        <li>
+            <h3>Girls Who Code</h3>
+            <p>
+                Girls Who Code is an organization dedicated to closing the gender gap in technology. They offer various programs including:
+            </p>
+            <ul>
+                <li>Clubs: After-school programs for 3rd-12th grade girls, teaching them to code and develop computer science skills.</li>
+                <li>Summer Immersion Program: A 7-week intensive program for 10th-11th grade girls, providing them with hands-on coding experience, exposure to tech jobs, and mentoring from women in the industry.</li>
+                <li>College Loops: On-campus programs that support college women majoring in computer science.</li>
+                <li>Code at Home: Online resources and activities designed to teach coding to girls at home.</li>
+            </ul>
+            <p>Visit the <a href="https://girlswhocode.com/" target="_blank">Girls Who Code website</a> for more information.</p>
+        </li>
+        <li>
+            <h3>ManUp</h3>
+            <p>ManUp is a campaign aimed at exploring male culture, relationships, and mental health through a series of workshops. It helps young men understand and navigate societal expectations and personal challenges. Workshops cover topics such as male stereotypes, healthy relationships, mental health, and supporting each other, fostering healthy male expression and behavior through discussions and reflection.</p>
+            <p>Visit the <a href="https://www.manupwa.org.au/" target="_blank">ManUp WA website</a> for more information.</p>
+        </li>
+    </ul>
+</section>
+
+
+    </main>
+    
     <!-- Footer -->
     <footer>
-        <table width="100%" border="0" cellspacing="0" cellpadding="10" bgcolor="#333">
-            <tr>
-                <td style="color: white; text-align: center;">
-                    &copy; 2024 Promote Gender Equality. All rights reserved.
-                </td>
-            </tr>
-        </table>
+        <p>&copy; 2024 Promote Gender Equality. All rights reserved.</p>
     </footer>
+
+    <script>
+        // Smooth scroll and active section highlight
+        document.addEventListener('DOMContentLoaded', function () {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('nav a');
+            
+            navLinks.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    if (targetSection) {
+                        targetSection.scrollIntoView({ behavior: 'smooth' });
+                        // Highlight the active section
+                        sections.forEach(section => {
+                            section.classList.remove('active-section');
+                        });
+                        targetSection.classList.add('active-section');
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
